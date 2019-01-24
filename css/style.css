@@ -1,5 +1,8 @@
 body {
   background-color: #171042;
+  font-variant: small-caps;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  color: white;
 }
 
 #timedate {
@@ -9,11 +12,36 @@ body {
   left: 32%;
   margin-top: -12%;
   margin-left: -12%;
-
-  font: small-caps lighter 35px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 35px;
+  line-height: 150%;
   text-align: left;
   margin: auto;
-  color: #ffffff;
   border-left: 3px solid #f92801;
   padding: 20px;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, sans-serif;
+  display: block;
+  position: absolute;
+  font-size: 3.5pt;
+  bottom: 0;
+  width: 99%;
+}
+
+footer h1 {
+  text-align: center;
+}
+
+.heart {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  height: 10px;
+  width: 10px;
+  top: 2px;
 }
